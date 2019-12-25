@@ -475,6 +475,15 @@ define Device/hnet_c108
 endef
 TARGET_DEVICES += hnet_c108
 
+define Device/hootoo_tm05
+  SOC := mt7620n
+  IMAGE_SIZE := 7872k
+  DEVICE_VENDOR := HooToo
+  DEVICE_MODEL := TM05
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-i2c-core kmod-i2c-ralink
+endef
+TARGET_DEVICES += hootoo_tm05
+
 define Device/iodata_wn-ac1167gr
   SOC := mt7620a
   DEVICE_VENDOR := I-O DATA

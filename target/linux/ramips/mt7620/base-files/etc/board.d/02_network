@@ -106,6 +106,7 @@ ramips_setup_interfaces()
 		;;
 	edimax,ew-7476rpc|\
 	edimax,ew-7478ac|\
+	hootoo,tm05|\
 	kimax,u35wf|\
 	microduino,microwrt|\
 	yukai,bocco|\
