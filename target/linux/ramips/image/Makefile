@@ -190,6 +190,10 @@ ifeq ($(SUBTARGET),mt7620)
 include mt7620.mk
 endif
 
+ifeq ($(SUBTARGET),mt7620_tiny)
+include mt7620_tiny.mk
+endif
+
 ifeq ($(SUBTARGET),mt7621)
 include mt7621.mk
 endif
